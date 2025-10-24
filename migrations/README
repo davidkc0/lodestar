@@ -1,0 +1,18 @@
+# Migrations
+
+This directory contains database migrations for the Flask application.
+
+To create a new migration:
+```bash
+flask db migrate -m "Description of changes"
+```
+
+To apply migrations:
+```bash
+flask db upgrade
+```
+
+To downgrade:
+```bash
+flask db downgrade
+```
